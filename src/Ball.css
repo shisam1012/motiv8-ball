@@ -1,0 +1,11 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #4cafeb; /* כחול יפה */
+    border-radius: 50%; /* הופך את הריבוע לעיגול */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
