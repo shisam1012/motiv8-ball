@@ -7,18 +7,6 @@
     height: 35vmax;
 }
 
-.highlight {
-    position: absolute;
-    top: 5vmax;
-    right: 5vmax;
-    width: 3vmax;
-    height: 3vmax;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    filter: blur(5px);
-    pointer-events: none;
-}
-
 .black-circle {
     width: 35vmax;
     height: 35vmax;
