@@ -1,29 +1,16 @@
-.container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35vmax;
-    height: 35vmax;
-}
-
 .black-circle {
     width: 35vmax;
     height: 35vmax;
-    background-color: #000000;
     border-radius: 50%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
 
-    box-shadow: 0vmax 1.5vmax 2vmax rgba(0, 0, 0, 0.5),
-        0vmax 0.3vmax 0.8vmax rgba(0, 0, 0, 0.2),
-        inset 0 0 5vmax rgba(255, 255, 255, 0.1),
-        inset 1vmax 1vmax 1vmax rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background: radial-gradient(circle at 12vmax 12vmax, #333, #000);
+    box-shadow: 0 1.5vmax 2vmax rgba(0, 0, 0, 0.5),
+        inset 0 0 5vmax rgba(255, 255, 255, 0.1);
 }
 
 .white-circle {
@@ -33,35 +20,28 @@
     border-radius: 50%;
 
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: relative;
-    box-shadow: 0 0 20px rgba(240, 234, 234, 0.3);
+    align-items: center;
+}
+
+.white-circle svg {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 @keyframes zoomInSmoothly {
-    0% {
-        transform: scale(0.1);
+    from {
+        transform: scale(0.2);
         opacity: 0;
     }
-    100% {
+    to {
         transform: scale(1);
         opacity: 1;
     }
 }
 
-.white-circle svg g.text-glow {
-    filter: none;
-
-    text-shadow: 0 0 4px #235fe0ff, 0 0 8px #235fe0ff, 0 0 12px #235fe0ff,
-        0 0 20px #6cb1f1;
-}
-
-.white-circle svg g.zoom-in-text {
-    transform-origin: center center;
+.zoom-in-text {
+    transform-origin: center;
     animation: zoomInSmoothly 1.2s ease-out forwards;
-}
-
-.triangle-glow {
-    filter: drop-shadow(0 0 8px #235fe0ff) drop-shadow(0 0 15px #6cb1f1);
 }
