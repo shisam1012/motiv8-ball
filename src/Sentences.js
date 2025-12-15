@@ -38,4 +38,11 @@ export const sentences = [
     'Take a deep breath and reset',
     'Stay curious',
     'Your perfect fit is coming soon',
+    'It is just a feature, not a bug',
+    'The answer is 42',
+    'A tired mind writes bad code. Pause',
+    'Time for a quick stretch',
+    'Let’s commit to a great day',
+    'Just do it!',
+    'Stop comparing and start creating',
 ];
