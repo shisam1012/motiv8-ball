@@ -28,14 +28,14 @@ const Ball = () => {
 
                     <g key={animationKey} className='zoom-in-text text-glow'>
                         <text
-                            font-family='Arial'
-                            font-size='6.5'
+                            fontFamily='Arial'
+                            fontSize='6.5'
                             fill='#235fe0ff'
                         >
                             <textPath
                                 href='#myArc'
                                 startOffset='50%'
-                                text-anchor='middle'
+                                textAnchor='middle'
                             >
                                 {currentSentence}
                             </textPath>
