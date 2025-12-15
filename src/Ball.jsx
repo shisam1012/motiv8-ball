@@ -14,6 +14,7 @@ const Ball = () => {
 
     return (
         <div className='black-circle' onClick={handleBallClick}>
+            <div className='highlight'></div>
             <div className='white-circle'>
                 <svg
                     viewBox='0 0 100 100'
